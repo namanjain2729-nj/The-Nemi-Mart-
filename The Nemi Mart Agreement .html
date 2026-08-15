@@ -6,7 +6,6 @@
     <title>The Nemi Mart - Independent Direct Seller Agreement</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Watermark Background Styling */
         .watermark-bg {
             position: relative;
         }
@@ -21,7 +20,7 @@
             background-repeat: repeat;
             background-position: center;
             background-size: 300px;
-            opacity: 0.04; /* Light transparent watermark */
+            opacity: 0.04;
             pointer-events: none;
             z-index: 0;
         }
@@ -48,7 +47,6 @@
 
             <!-- Scrollable Terms & Conditions Box -->
             <div class="p-6 sm:p-8 space-y-6 text-slate-700 text-sm leading-relaxed">
-                
                 <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-lg text-amber-900 text-xs sm:text-sm">
                     <strong>⚠️ Mahatvapurna Soochna (Important Notice):</strong> Yeh ek principal-to-principal commercial agreement hai. The Nemi Mart, YTM India Marketing Pvt. Ltd. ka direct ya legal representative nahi hai jab tak alag se written authorization na ho.
                 </div>
@@ -72,12 +70,6 @@
 
                     <h3 class="font-bold text-slate-900">4. Direct Selling & Consumer Protection Compliance</h3>
                     <p>Yeh business Consumer Protection Act, 2019 aur Consumer Protection (Direct Selling) Rules, 2021 ke niyamoh ke antargat chalta hai. Kisi bhi tarah ka pyramid scheme, money-circulation, ya false/guaranteed income promise karna poori tarah ban hai. Earnings kewal genuine product sales par hi depend karti hain.</p>
-
-                    <h3 class="font-bold text-slate-900">5. Product Authenticity & Prohibited Conduct</h3>
-                    <p>Products original aur lawfully sourced hone chahiye. Labels, batch numbers, expiry dates ya invoices ke sath koi chhedkhani nahi ki jayegi. Jhoothe medical, health ya guaranteed profit claims banana sakht manah hai.</p>
-
-                    <h3 class="font-bold text-slate-900">6. Termination & Safety</h3>
-                    <p>Agar koi seller fraud, tampered products, unauthorized representation ya rules todne mein shamil paya gaya, toh The Nemi Mart uska account turant suspend ya terminate kar sakta hai.</p>
                 </div>
 
                 <!-- Registration Form -->
@@ -87,42 +79,42 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 uppercase">Full Legal Name *</label>
-                            <input type="text" id="fullName" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none bg-white" placeholder="Aapka Pura Naam">
+                            <input type="text" id="fullName" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg bg-white" placeholder="Aapka Pura Naam">
                         </div>
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 uppercase">Father's / Spouse's Name *</label>
-                            <input type="text" id="relativeName" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none bg-white" placeholder="Pita / Pati ka Naam">
+                            <input type="text" id="relativeName" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg bg-white" placeholder="Pita / Pati ka Naam">
                         </div>
                     </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 uppercase">Date of Birth *</label>
-                            <input type="date" id="dob" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none bg-white">
+                            <input type="date" id="dob" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg bg-white">
                         </div>
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 uppercase">Mobile Number *</label>
-                            <input type="tel" id="mobile" required pattern="[0-9]{10}" class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none bg-white" placeholder="10 digit mobile number">
+                            <input type="tel" id="mobile" required pattern="[0-9]{10}" class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg bg-white" placeholder="10 digit mobile number">
                         </div>
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 uppercase">Email Address *</label>
-                            <input type="email" id="email" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none bg-white" placeholder="example@email.com">
+                            <input type="email" id="email" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg bg-white" placeholder="example@email.com">
                         </div>
                     </div>
 
                     <div>
                         <label class="block text-xs font-semibold text-slate-600 uppercase">Full Residential Address *</label>
-                        <textarea id="address" required rows="2" class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none bg-white" placeholder="Ghar ka pata, City, State, PIN code"></textarea>
+                        <textarea id="address" required rows="2" class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg bg-white" placeholder="Ghar ka pata, City, State, PIN code"></textarea>
                     </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 uppercase">PAN Number *</label>
-                            <input type="text" id="pan" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none uppercase bg-white" placeholder="ABCDE1234F">
+                            <input type="text" id="pan" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg uppercase bg-white" placeholder="ABCDE1234F">
                         </div>
                         <div>
-                            <label class="block text-xs font-semibold text-slate-600 uppercase">Aadhaar / Government ID Number *</label>
-                            <input type="text" id="govId" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none bg-white" placeholder="ID Number">
+                            <label class="block text-xs font-semibold text-slate-600 uppercase">Government ID Number *</label>
+                            <input type="text" id="govId" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg bg-white" placeholder="ID Number">
                         </div>
                     </div>
 
@@ -176,11 +168,11 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 uppercase">Full Name as Electronic Signature *</label>
-                            <input type="text" id="eSignature" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none font-serif italic text-lg bg-white" placeholder="Type Full Name to Sign">
+                            <input type="text" id="eSignature" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg font-serif italic text-lg bg-white" placeholder="Type Full Name to Sign">
                         </div>
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 uppercase">Place / City *</label>
-                            <input type="text" id="place" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none bg-white" placeholder="Aapka Shehar">
+                            <input type="text" id="place" required class="mt-1 w-full px-3 py-2 border border-slate-300 rounded-lg bg-white" placeholder="Aapka Shehar">
                         </div>
                     </div>
 
@@ -197,7 +189,7 @@
 
                 <!-- Success Alert -->
                 <div id="successAlert" class="hidden mt-6 p-4 bg-emerald-50 border border-emerald-300 text-emerald-800 rounded-xl text-center font-semibold shadow-sm">
-                    🎉 Badhai ho! Aapka Independent Direct Seller Agreement safalpurvak submit ho gaya hai! Aap Print / Save PDF karke iska record apne paas rakh sakte hain.
+                    🎉 Badhai ho! Aapka Independent Direct Seller Agreement safalpurvak submit ho gaya hai aur WhatsApp par PDF bhejne ki process shuru ho chuki hai! Aap Print / Save PDF bhi kar sakte hain.
                 </div>
 
             </div>
@@ -209,15 +201,73 @@
 
         </div>
     </div>
+        <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
 
     <script>
+        // Firebase Configuration using your RTDB URL
+        const firebaseConfig = {
+            databaseURL: "https://the-nemi-mart-f8af3-default-rtdb.firebaseio.com/"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const database = firebase.database();
+
+        // Make.com Webhook URL provided by you
+        const webhookUrl = "https://hook.eu1.make.com/mgo18kmwtg41fhqoug1gkfo39gsjht64";
+
+        // Form Submit Event Handler
         document.getElementById('sellerRegistrationForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            const signature = document.getElementById('eSignature').value;
-            if(signature) {
-                document.getElementById('successAlert').classList.remove('hidden');
-                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-            }
+
+            // Collect form data
+            const sellerData = {
+                fullName: document.getElementById('fullName').value,
+                relativeName: document.getElementById('relativeName').value,
+                dob: document.getElementById('dob').value,
+                mobile: document.getElementById('mobile').value,
+                email: document.getElementById('email').value,
+                address: document.getElementById('address').value,
+                pan: document.getElementById('pan').value,
+                govId: document.getElementById('govId').value,
+                accName: document.getElementById('accName').value,
+                bankName: document.getElementById('bankName').value,
+                accNumber: document.getElementById('accNumber').value,
+                ifsc: document.getElementById('ifsc').value,
+                upiId: document.getElementById('upiId').value,
+                eSignature: document.getElementById('eSignature').value,
+                place: document.getElementById('place').value,
+                submissionDate: new Date().toISOString()
+            };
+
+            // 1. Save data to Firebase Realtime Database under 'sellers' node
+            const sellersRef = database.ref('sellers');
+            const newSellerRef = sellersRef.push();
+
+            newSellerRef.set(sellerData)
+                .then(() => {
+                    console.log("Data saved successfully in Firebase RTDB!");
+
+                    // 2. Send data to Make.com Webhook to trigger PDF generation & WhatsApp notification
+                    return fetch(webhookUrl, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(sellerData)
+                    });
+                })
+                .then(response => {
+                    // Show success message
+                    document.getElementById('successAlert').classList.remove('hidden');
+                    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+                    console.log("Data sent to Make.com webhook successfully!");
+                })
+                .catch((error) => {
+                    alert("Error during submission: " + error.message);
+                });
         });
     </script>
 </body>
